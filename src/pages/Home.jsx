@@ -1,11 +1,8 @@
-import Header from "../components/layout/Header";
-import Footer from "../components/layout/Footer";
 import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
       <main className="flex-grow">
         {/* Hero */}
         <section className="text-center py-16 bg-white">
@@ -58,7 +55,6 @@ export default function Home() {
           </Link>
         </section>
       </main>
-      <Footer />
     </div>
   );
 }
